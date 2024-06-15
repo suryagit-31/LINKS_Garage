@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Save Link Extension",
+  "version": "1.0",
+  "description": "An extension to save website links",
+  "action": {
+    "default_popup": "exten.html",
+    "default_icon": {
+      "16": "twpk.png",
+      "48": "twpk.png",
+      "128": "twpk.png"
+    }
+  },
+  "permissions": ["tabs"]
+}
